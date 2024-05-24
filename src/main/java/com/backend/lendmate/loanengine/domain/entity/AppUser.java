@@ -22,6 +22,7 @@ public class AppUser {
     private String email;
     private String password;
     private String phoneNumber;
+    private boolean isVerified;
 
     @Enumerated(EnumType.STRING)
     private Occupation occupation;
